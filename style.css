@@ -1,0 +1,40 @@
+main {
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+input {
+    
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #1f2c42;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    transition: background .8s;
+}
+
+input:hover {
+    background-color: #1f2c42a1;
+}
+
+#square {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 332px auto 0;
+    background-color: #1f2c42;
+
+    transition-duration: 1.5s;
+    opacity: 0;
+}
+
+#square.active {
+    opacity: 1;
+}
+
